@@ -170,7 +170,7 @@ section header h2 {
 }
 
 .header-frame-fixed .site-logo {
-    margin-top: 4px;
+    margin-top: 15px;
 }
 
 @media all and (min-width:900px) {
@@ -197,6 +197,24 @@ section header h2 {
     }
     .header-inline .nav-inline:hover {
         background: #ffffff;
+    }
+
+    .img-logo {
+        width: 220px !important;
+    }
+
+    .countdown h1 {
+        padding-top: 150px !important;
+        font-size: 40px !important;
+    }
+
+    .countdown h3 {
+        margin-top: 20px;
+        font-size: 20px !important;
+    }
+
+    .hidden-xs {
+        display: none;
     }
 
 }
@@ -234,7 +252,8 @@ section header h2 {
     font-size: 60px;
     font-weight: 300;
     line-height: 60px;
-    padding-top: 300px;
+    padding-top: 250px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .countdown h3 {
@@ -320,12 +339,13 @@ section header h2 {
 
 .venue-address {
     min-height: 300px;
-    background: rgba(52, 152, 219, 0.85) none repeat scroll 0 0;
+    background: rgba(46, 51, 51, 0.5) none repeat scroll 0 0;
 }
 
 .venue-address .address {
     padding-left: 30px;
     position: relative;
+    color: #fff;
 }
 
 .venue-address .address .fa {
