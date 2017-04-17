@@ -388,3 +388,22 @@ section header h2 {
 .realizacao-imgs {
     padding: 20px;
 }
+
+.fotos-hotel {
+    opacity: 0.75;
+    padding-right: 50px;
+    float: right;
+    max-width: 430px;
+}
+
+.infos-hotel {
+    padding-left: 50px;
+}
+
+@media (max-width: 768px) {
+    .fotos-hotel, .infos-hotel {
+        max-width: 100%;
+        padding: 0;
+        opacity: 1;
+    }
+}
