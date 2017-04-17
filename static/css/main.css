@@ -389,6 +389,10 @@ section header h2 {
     padding: 20px;
 }
 
+.patrocinadores .realizacao-imgs {
+    padding: 20px 10px;
+}
+
 .fotos-hotel {
     opacity: 0.75;
     padding-right: 50px;
@@ -398,6 +402,10 @@ section header h2 {
 
 .infos-hotel {
     padding-left: 50px;
+}
+
+.container-p {
+    padding: 0 5%;
 }
 
 @media (max-width: 768px) {
