@@ -415,3 +415,27 @@ section header h2 {
         opacity: 1;
     }
 }
+
+.box-hotel {
+    background-color: #F44336;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #B71C1C;
+    color: #fff;
+}
+
+.box-hotel a {
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .box-hotel .row {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
