@@ -470,3 +470,22 @@ tr>td:first-child {
     font-weight: bold;
     letter-spacing: 1px;
 }
+
+#calendar {
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.fc-view table {
+    margin: 0 !important;
+}
+
+.fc-day-header {
+    font-size: 18px;
+}
+
+.fc-content {
+    font-size: 16px !important;
+}

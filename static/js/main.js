@@ -53,4 +53,41 @@ function init_map() {
 google.maps.event.addDomListener(window, 'load', init_map);
 
 
-
+$(document).ready(function() {
+    //Full Calendar
+    $('#calendar').fullCalendar({
+        header: {
+            right: 'basicWeek,list'
+        },
+        defaultDate: '2017-09-25',
+        locale: "pt-BR",
+        eventLimit: true, // allow "more" link when too many events
+        events: [
+            {
+                title: "Saída do Aeroporto Eurico Sales (Vitória) para Pedra Azul/Domingos Martins",
+                start: "2017-09-25T14:30",
+                end: "2017-09-25T17:30",
+            },
+            {
+                title: "Mini-curso: Fluidos Olefínicos",
+                start: "2017-09-25T18:00",
+                end: "2017-09-25T18:50",
+            },
+            {
+                title: "Mini-curso: Estabilidade de Poços",
+                start: "2017-09-25T18:50",
+                end: "2017-09-25T19:40",
+            },
+            {
+                title: "Abertura Oficial do Evento",
+                start: "2017-09-25T19:45",
+                end: "2017-09-25T20:30",
+            },
+            {
+                title: "Cocktail de Boas Vindas",
+                start: "2017-09-25T20:30",
+                end: "2017-09-25T21:15",
+            }
+        ]
+    });
+});

@@ -51,12 +51,22 @@
 		<link rel="stylesheet" href="static/css/main.css">
 
 		<link href='https://fonts.googleapis.com/css?family=Economica:400,700' rel='stylesheet' type='text/css'>
+
+		<!-- jQuery -->
+        <script src="static/js/jquery-1.11.0.min.js"></script>
+
+		<!-- Full Calendar -->
+		<link href='static/fullcalendar/fullcalendar.min.css' rel='stylesheet' />
+		<link href='static/fullcalendar/fullcalendar.print.min.css' rel='stylesheet' media='print' />
+		<script src='static/fullcalendar/moment.js'></script>
+		<script src='static/fullcalendar/fullcalendar.min.js'></script>		
+		<script src='static/fullcalendar/locale-all.js'></script>
+
 		
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCETwmbTe-1qtV1m8xt_8KR1bcNtKMyeAk&v=3.exp"></script>
-                <script src="static/js/jquery-1.11.0.min.js"></script>
 		<script src="static/js/jquery.stellar.min.js"></script>
 		<script src="static/js/smooth-scroll.js"></script>
-		<script src="static/js/retina-1.1.0.min.js"></script>
+		<!--<script src="static/js/retina-1.1.0.min.js"></script>-->
 		<script src="static/js/main.js"></script>
 	</head>
 
@@ -155,112 +165,17 @@
 
 		<!-- Agenda -->
 		<section id="agenda" style="background-color: #f4f4f4">
-			<div class="overview text-align-center row desktop-12 padding-top-2 container" style="    padding-bottom: 50px;">
-				<h2>Agenda</h2>
-				<p>
-					
-					Envio do resumo: até 26/05/2017 <br>
-                    Resposta de aceite do resumo: 13/06/2017 <br>
-                    Envio do trabalho completo: de 04/08/2017 a 27/08/2017 <br>
-                    Resposta de aceite do trabalho completo: 31/08/2017
-				</p>
+			<div class="overview text-align-center row desktop-12 padding-top container" style="padding-bottom: 50px;">
+				<h1><i class="fa fa-calendar"></i></h1>
+				<h2>Programação Oficial do Evento</h2>
 
-				<hr>
+				<!--<div id="calendar"></div>-->
 
-				<h2>Cronograma</h2>
+				<a href="programacao.pdf" class="btn-basic btn-blue" style="font-size: 22px; padding: 6px 16px;" href="#">
+					<i class="fa fa2 fa-download"></i> Clique aqui para visualizar!
+				</a><br />
+				<small style="font-size: 11px;">( Ultima atualização: 08/09/2017 - 14:00h - horário de Brasília )</small>
 
-				<div class="table-responsive">
-					<table class="table table-bordered table-external">
-						<thead>
-							<tr>
-								<td>Turno</td>
-								<td>Segunda-feira</td>
-								<td>Terça-feira</td>
-								<td>Quarta-feira</td>
-								<td>Quinta-feira</td>
-							</tr>
-						</thead>
-
-						<tbody>
-							<tr>
-								<td>08:30</td>
-								<td rowspan="2">Chegada ao Aeroporto</td>
-								<td>Palestra 1</td>
-								<td>Palestra 3</td>
-								<td>Palestra 4</td>
-							</tr>
-							<tr>
-								<td>09:30</td>
-								<td>Sessões Técnicas 1</td>
-								<td>Sessões Técnicas 3</td>
-								<td>Sessões Técnicas 5 e Encerramento</td>
-							</tr>
-							<tr>
-								<td>12:15</td>
-								<td rowspan="2">Almoço</td>
-								<td rowspan="2">Almoço</td>
-								<td rowspan="2">Almoço</td>
-								<td rowspan="2">Almoço</td>
-							</tr>
-							<tr>
-								<td>14:00</td>
-							</tr>
-							<tr>
-								<td>14:30</td>
-								<td>&nbsp;</td>
-								<td rowspan="2">Palestra 2</td>
-								<td>Student Paper</td>
-								<td rowspan="5">Translado ao Aeroporto</td>
-							</tr>
-							<tr>
-								<td>14:45</td>
-								<td rowspan="3">Translado ao Hotel Bristol
-									Vista Azul
-								</td>
-								<td rowspan="2">Tarde Livre</td>
-							</tr>
-							<tr>
-								<td>15:00</td>
-								<td>Poster + Café com
-									prosa
-								</td>
-							</tr>
-							<tr>
-								<td>17:30</td>
-								<td rowspan="2">Sessões Ténicas 2</td>
-								<td>Poster + Café com
-									prosa
-								</td>
-							</tr>
-							<tr>
-								<td>18:30</td>
-								<td rowspan="3">Curso de Abertura</td>
-								<td rowspan="4">Sessões Ténicas 4</td>
-							</tr>
-							<tr>
-								<td>19:00</td>
-								<td>Student Paper</td>
-								<td rowspan="5">&nbsp;</td>
-							</tr>
-							<tr>
-								<td>19:30</td>
-								<td rowspan="4">Atividades Culturais</td>
-							</tr>
-							<tr>
-								<td>19:45</td>
-								<td rowspan="2">Abertura do Evento</td>
-							</tr>
-							<tr>
-								<td>20:00</td>
-								<td rowspan="2">Confraternização</td>
-							</tr>
-							<tr>
-								<td>20:30</td>
-								<td>Cocktail</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
 			</div>
 		</section>
 
